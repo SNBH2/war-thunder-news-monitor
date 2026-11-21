@@ -4,7 +4,7 @@ DMM日本語公式サイトとGaijin英語公式サイトの新着記事を定�
 
 ## 動作仕様
 
-- 10分ごとに監視（GitHub Actionsの都合で実行時刻は前後します）
+- 指定時間ごとに監視（GitHub Actionsの都合で実行時刻は前後します）
 - 対象:
   - https://warthunder.dmm.com/
   - https://warthunder.com/en/news
