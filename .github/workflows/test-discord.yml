@@ -1,7 +1,7 @@
 
 name: Discord test notification
 
-on:
+"on":
   workflow_dispatch:
 
 jobs:
