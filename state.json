@@ -1,294 +1,168 @@
 {
-  "2c26fc37928c0f88d4196d248aabed4a8c21de6fe48b3fb84f265138a3afca1e": {
-    "title": "ゲームについて",
-    "url": "https://warthunder.dmm.com/about"
-  },
-  "0cbc1530047b7fc5dde28c9991bd69741c676e12af28e7856588b09e6e2ca8be": {
-    "title": "ゲームの始め方",
-    "url": "https://warthunder.dmm.com/game/gamestart"
-  },
-  "45c9f22bce7236cf69211688b9f5657251cdaa24a5bd3ad4449db121c9a238ff": {
-    "title": "ゲームプレイガイド",
-    "url": "https://warthunder.dmm.com/play-guide"
-  },
-  "7c948516dcc6086d6344279fedf4acc43f2812a92458a63e8541a3d875b7daab": {
-    "title": "航空機＆地上車両＆艦艇＆ヘリコプター紹介",
-    "url": "https://warthunder.dmm.com/technics"
-  },
-  "484bcb47eb873c6f9d3ffd5cb87c1a6c2287335b3385880915e5747cfa656b93": {
-    "title": "アシスタントアプリ",
-    "url": "https://warthunder.dmm.com/assistant"
-  },
-  "7b8e8838cd034e93b38b67dc670080d6a0c6abc42ee4ee55a720935daab73853": {
-    "title": "お知らせ",
-    "url": "https://warthunder.dmm.com/news/information"
-  },
-  "47a4c5c2e47ee8140eb608e3dc93696c2a2a44d769ab79ec0d24510543bfbff1": {
-    "title": "メンテナンス",
-    "url": "https://warthunder.dmm.com/news/maintenance"
-  },
-  "315a74e1297f62c90c5fa7eb48451dd1bbe453d5db6446832624ad85ac08a420": {
-    "title": "イベント",
-    "url": "https://warthunder.dmm.com/news/event"
-  },
-  "0ad03aa65d771861669d10bf0002c924f4162de237b256aae21cd825c41cd11f": {
-    "title": "メディア/アート",
-    "url": "https://warthunder.dmm.com/news/art-media"
-  },
-  "e9c8a0820ee3cd7039780b3705e730d30e5d23b1615c663d1e479c3859c352e4": {
-    "title": "パッチノート",
-    "url": "https://warthunder.dmm.com/news/patch-notes"
-  },
-  "11a4942cd08f9b9f380b11a121c4827365bae5bee004533cf2edefefad2afb4a": {
-    "title": "開発者ブログ",
-    "url": "https://warthunder.dmm.com/news/developer-blog"
-  },
-  "236cab3aee08a0fa3a84f6cc1d4beb4ba5e6bcc2a1279d518fc65d6b06ecd948": {
-    "title": "メディア",
-    "url": "https://warthunder.dmm.com/media/video"
-  },
-  "2017c444f0667d9709a821bc939a1d5e7e96817b12edc1844e2f27a2ae5f8896": {
-    "title": "スクリーンショット",
-    "url": "https://warthunder.dmm.com/media/screenshots"
-  },
-  "6792d588d1c0618405af883a727888598d614be4971bfdf40d87af41143f7a88": {
-    "title": "サウンドトラック",
-    "url": "https://warthunder.dmm.com/media/soundtrack"
-  },
-  "aabe1f588b99982e5d9ed0b0cc23995cbf4854c1755da902f4fc9f429ee39bec": {
-    "title": "プレスキット",
-    "url": "https://warthunder.dmm.com/media/presskit"
-  },
-  "ddcbee25121d6adf0dc211b0ad491c07f866cc333ec879ab39a5a782bcd1062d": {
-    "title": "コンテンツパートナーシップ",
-    "url": "https://warthunder.dmm.com/media/partnership"
-  },
-  "b1dcb303503bb3bc1ba4d16f6da970ae634fd607ab1d48ca840b27fb395e39d8": {
-    "title": "コミュニティ",
-    "url": "https://warthunder.dmm.com/community"
-  },
-  "484b55e8e71effcb530ab580f87fada384ff6bb955db528c63cea09d893b4225": {
-    "title": "画像掲示板",
-    "url": "https://warthunder.dmm.com/community/image"
-  },
-  "b9461c91dcbe5929fd01b89661820ee1c196e5a34d38133176d30637cd625853": {
-    "title": "カスタムについて",
-    "url": "https://warthunder.dmm.com/custom"
-  },
-  "7f8744d2604a1591756d6ce10520674181c01d1b6b61d496bdeeb9547c966b42": {
-    "title": "カモフラージュ",
-    "url": "https://warthunder.dmm.com/custom/camouflages"
-  },
-  "2d875674c5d90806016e52fbcf8213873e62272ba4560ada3162a74fc9246626": {
-    "title": "サウンド",
-    "url": "https://warthunder.dmm.com/custom/sounds"
-  },
-  "969176e85f64125d55caceac2fa263967811e25a4710211e23136f85ce050ae1": {
-    "title": "ロケーションエディタ",
-    "url": "https://warthunder.dmm.com/custom/creatinglocations"
-  },
-  "395f06654ff3c77e675fd3485e69c726f67718d1781421cfd417fc21d11216ac": {
-    "title": "ミッションエディタ",
-    "url": "https://warthunder.dmm.com/custom/missioneditor"
-  },
-  "7e0e2f55a367bfa70f9bcc327609a76a53e0eb4701f9ce120d3002ac72865c83": {
-    "title": "購入方法",
-    "url": "https://warthunder.dmm.com/howtobuy_pc"
-  },
-  "2f3a578174791e077efc41f69b6c9c3358ae7a36b6d38e3763379c6d4828b03b": {
-    "title": "動作環境",
-    "url": "https://warthunder.dmm.com/spec"
-  },
-  "d2f7eae96f79e4584e66770981c0875d527f9d9a8d62bdb760fb436a0b165531": {
-    "title": "WarThunderサービス利用規約",
-    "url": "https://warthunder.dmm.com/termsofuse"
-  },
-  "198435ddfe57d2dd662df910eaa29ec5f41056ea83a1424285874360a8c9b0b0": {
-    "title": "ライセンス情報",
-    "url": "https://warthunder.dmm.com/legals"
-  },
-  "0b9fc71297112664ca48f7c4abc645d0cdf92f977510d4f4cfd5871402bad706": {
-    "title": "特定商取引法に基づく表示",
-    "url": "https://warthunder.dmm.com/transaction"
-  },
-  "978b543387e517f6d8557afc5dea1a6ffe71b363af0969f96108032af38f6fb1": {
-    "title": "資金決済法に基づく表示",
-    "url": "https://warthunder.dmm.com/fund-settlement"
-  },
-  "f62692537c62126f51b32ce9e489780bba67e1f89056d8228dde8ad950d61f07": {
-    "title": "ゲームプレイ",
-    "url": "https://warthunder.dmm.com/gameplayer_modal_parts"
-  },
-  "194d01c536322eb86ba07f85056aab27e85b64edbcc1f58463b4658e93955443": {
-    "title": "NEW アップデート 2.61.0.33 航空機・ホーネット（全派生型）：WEPを有効にしている間、エンジンの推力が低下していた不具合を修正しました（報告）。ニュークリアエスカレーション（Nuclear Escalatio... パッチノート 2026-11-21 09:30",
-    "url": "https://warthunder.dmm.com/news/detail/16099"
-  },
-  "27521ecf232503e31c6bb8f968e989686cc1bbf30cb716c8fc3216e5f8d56303": {
-    "title": "NEW F-5A-21国際戦闘機コンペティション勝利記念：NF-5A Download Wallpaper: 1920x1080 2560x1440 3840x2160&nbsp... セール 2026-11-21 09:00",
-    "url": "https://warthunder.dmm.com/news/detail/16098"
-  },
-  "f1451bc4f23c23ab256e0cf6fc7765a78f9923e676425d7314cd3cf479e63d61": {
-    "title": "サーバーアップデート 19.11.2026 ニュークリアエスカレーション（Nuclear Escalation）・しばらくの間、最上位および最上位付近のBR（バトルレーティング）帯において、「青」チームの勝率が「赤」チームを... パッチノート 2026-11-20 09:00",
-    "url": "https://warthunder.dmm.com/news/detail/16095"
-  },
-  "15f3cdb2610f6b2c492de2ffedb73404b6d561f1debae4d78c803beb3e7e79b3": {
-    "title": "アップデート 2.61.0.26 航空機・Bf 109 F-4：コックピットの一部の要素がずれたり消失したりするほか、一部の計器が機能しなくなり、風防ガラスの色が変わってしまう不具合を修正しました（報告）。地上車両... パッチノート 2026-11-19 09:30",
-    "url": "https://warthunder.dmm.com/news/detail/16091"
-  },
-  "0f5e61202971b3ad78bd345a01ab08702d6f3012ab7425d9127c7f82c7690652": {
-    "title": "海イベント：PCE-842 2026年秋季海上作戦「コースタルディフェンダー（Coastal Defender）」の目玉報酬は、3種類の爆雷投射機を搭載したフリゲート艦「PCE-842」です！今回は「小型艇：... 解説 2026-11-19 09:00",
-    "url": "https://warthunder.dmm.com/news/detail/16090"
-  },
-  "f2d5dbb3155252313271f154be521e7da11a84f133328d01ed57247c92c31352": {
-    "title": "プレゼント企画「イーグルズシャドウ（Eagle's Shadow）」 大型アップデート「イーグルズシャドウ（Eagle's Shadow）」の実施を記念して、新アップデートのプレミアムパック6種類を対象としたSNSプレゼント企画を開催します！見事当選... イベント 2026-11-19 09:00",
-    "url": "https://warthunder.dmm.com/news/detail/16092"
-  },
-  "8faafe5242f09f2ac28027d217d647c8ea6d32e6d380c0cb009c95751f811f86": {
-    "title": "アップデート 2.61.0.24 航空機・Su-15TM：リスポーン画面と戦闘中における燃料タイマーの値が一致しない不具合を修正しました（報告）。・Su-27/Su-30/J-11（全派生型）、Su-33、Su-3... パッチノート 2026-11-18 09:30",
-    "url": "https://warthunder.dmm.com/news/detail/16089"
-  },
-  "c84d7292e90869c8ef0e960a56d1ea6ab95c2bb9b0d35d2829d7b41e7e034413": {
-    "title": "【完了】11月17日（火）サーバーメンテナンスのお知らせ 【11月18日（水）10:00追記】11月17日（火）19：00（JST）より実施しておりましたメンテナンスが完了いたしました。メンテナンスにご協力いただきありがとうございました。... メンテナンス 2026-11-17 19:00",
-    "url": "https://warthunder.dmm.com/news/detail/16086"
-  },
-  "37a121a5d7c63a39ad0765e29f3275129b9fd8c3cc996bd3c8f29d37f9dfd357": {
-    "title": "アップデート 2.61.0.20 航空機・Z-10ME、Ka-52、A-10C、AH-1W（全派生型）：MAWS（Missile Approach Warning System：ミサイル警報装置）が脅威を検知するた... パッチノート 2026-11-17 09:30",
-    "url": "https://warthunder.dmm.com/news/detail/16084"
-  },
-  "df631589a9c469b820810bd7f63b73c927795541274ff0b9e0ac871343ff187b": {
-    "title": "海イベント「コースタルディフェンダー（Coastal Defender）」：PCE-842 Download Wallpaper: 1920x1080 2560x1440 3840x2160&nbsp... イベント 2026-11-17 09:00",
-    "url": "https://warthunder.dmm.com/news/detail/16083"
-  },
-  "c5a35d34136c8878406392346930fea0e360d4539e9360a0d7fea8b80e04c1dc": {
-    "title": "About the game",
-    "url": "https://warthunder.com/en/game/about"
-  },
-  "16d3cad6ee4ee47f8aade3d6d7a91078eb2e461099f9db248d9497b93599dd7a": {
-    "title": "Devblog",
-    "url": "https://warthunder.com/en/news"
-  },
-  "84085ce1ab0120eab7d1ab2add147acb682f8c84541b1b7945dd75d27f0684e1": {
-    "title": "Military Vehicles",
-    "url": "https://warthunder.com/en/game/technics"
-  },
-  "ff250f1b452187491e4688d053e7e70632fb5b9abc194f01fbe5a19370f6f1d8": {
-    "title": "War Thunder Mobile",
-    "url": "https://warthunder.com/en/wtm"
-  },
-  "cf4d0870fd59dbed880febaffbba1a42c078c68dd123390cb91d708db25f6a58": {
-    "title": "Changelog",
-    "url": "https://warthunder.com/en/game/changelog"
-  },
-  "158f95925fc5f6dd363146921222a6781bd8f31fdbe946194f8118ffd88d859a": {
-    "title": "Invitations",
-    "url": "https://warthunder.com/en/game/invite-friend"
-  },
-  "5d0bffc18829056687de45876bd6aef13373aeaa2f0aaa319e6991864b7a0d97": {
-    "title": "Assistant",
-    "url": "https://warthunder.com/en/community/assistant"
-  },
-  "bffadfd530114ea60074063e3713196a4f14ba0883f730aa2c926bd196c45e1f": {
-    "title": "Gaijin Pass",
-    "url": "https://warthunder.com/en/community/gaijinpass"
-  },
-  "11ce23369b62c8cb9f7c309a7644554459196fb56b7f539b28373b757d78ca7f": {
-    "title": "Useful software",
-    "url": "https://warthunder.com/en/game/soft"
-  },
-  "34f5d9a958c2f192dded56139c9d9e3052d1db506fb8961a4b22154dbbac5262": {
-    "title": "Media",
-    "url": "https://warthunder.com/en/media"
-  },
-  "fdd3a39253e282cc2fe1d4b38d0105d3bb5594d7ffebfdcd879a786dbd4c2073": {
-    "title": "Partnership",
-    "url": "https://warthunder.com/en/media/partnership"
-  },
-  "da265d26780db886e5f21731148e26c4b3dd3601527e68a1c896c26a64a7f850": {
-    "title": "Video",
-    "url": "https://warthunder.com/en/media/video"
-  },
-  "2551d9e724053a02f6896b1b32657101bf4f60a8104ee52aeb3cb3f46873a296": {
-    "title": "Screenshots",
-    "url": "https://warthunder.com/en/media/screenshots"
-  },
-  "f8cdf54d293b4043a1eff26d2ba0c64b22c38f619344f370a2ba090ec28c8769": {
-    "title": "Wallpapers",
-    "url": "https://warthunder.com/en/media/wallpapers"
-  },
-  "101be747c6a656c92ff20f653ce0b5dbf5bc4e50b0d3edd5aebe720698d0f4e9": {
-    "title": "Soundtrack",
-    "url": "https://warthunder.com/en/soundtrack"
-  },
-  "4dadecced71eee8a32643e2fdabd102a28b64c0f5adf0911968b5046b5ecfd93": {
-    "title": "Press Kit",
-    "url": "https://warthunder.com/en/media/presskit"
-  },
-  "abf50235cf1d03fc3b02ecf1a95ccce77680912aed75d351fe4466f715b7aedd": {
-    "title": "Tutorials",
-    "url": "https://warthunder.com/en/media/tutorials"
-  },
-  "fcfc88d443c9325d2b86bf6b84206dbe672cefe3da29051cd20aba2c63315de3": {
-    "title": "Workshop",
-    "url": "https://warthunder.com/en/community/workshop"
-  },
-  "1fae3469ea9929b7a4745eceaa2e21da356846912cb78cc70df649477fc505d1": {
-    "title": "War Thunder CDK",
-    "url": "https://wiki.warthunder.com/war_thunder_cdk"
-  },
-  "534ae048b769426c5f88e42dd06c6f6536214b23ab857a786b088bcdfe2d61c1": {
-    "title": "Camouflages",
-    "url": "https://live.warthunder.com/feed/camouflages"
-  },
-  "10905b454ed561c3c3938dc19cdde4376d6d78149bff9a26c0aeeb06e94d870d": {
-    "title": "Missions",
-    "url": "https://live.warthunder.com/feed/missions"
-  },
-  "ebc917287b5df6b10735d8997cd4d5434a578a19d597a47cada4a8d2e38bfef0": {
-    "title": "Locations",
-    "url": "https://live.warthunder.com/feed/locations"
-  },
-  "3c5e006838219e817cca6dd592ff8098ee128a211f282646759169f4b72925a6": {
-    "title": "Models",
-    "url": "https://live.warthunder.com/feed/models"
-  },
-  "d9e57d370148741621d3d518d36da194756730c485e43d8cdfcc0cd75c4a37b3": {
-    "title": "Community",
-    "url": "https://warthunder.com/en/community"
-  },
-  "ad89f6b928a309d53a898f68ae6eecbb5833248c3f05783da6daca49c571aae9": {
-    "title": "Images",
-    "url": "https://live.warthunder.com/feed/images"
-  },
-  "65ff1d5f1716b1cb31938e239b2f5c19c6abe50eff85df13a9a279bb30e725e6": {
-    "title": "Leaderboard",
-    "url": "https://warthunder.com/en/community/leaderboard"
-  },
-  "8abca53d01bb4175c32f0697b1d5f16c7474c92046ceb8bcff792408fadf30bb": {
-    "title": "Replays",
-    "url": "https://warthunder.com/en/tournament/replay"
-  },
-  "67f4dd6a71f993abe32fffdb8d2d3bc1c7b0d49a877d10c326397b9304bdcdb2": {
-    "title": "Esports",
-    "url": "https://warthunder.com/en/esport"
-  },
-  "0bee7e1e4c7add9ea1af14d9d3527778911a225d647f3deb68e60d4d7256115e": {
-    "title": "Squadron Leaderboards",
-    "url": "https://warthunder.com/en/community/clansleaderboard"
-  },
-  "6992e4430ab29a333253dd3500b4aee834818554d7406ce66bfff941f1eab380": {
-    "title": "Squadrons",
-    "url": "https://warthunder.com/en/community/regiments"
-  },
-  "ef82d004335ae61dd05127b3f087eb53ca4e2bfd1b1760683a7a63b360a3e1ee": {
-    "title": "WTCS Leaderboard",
-    "url": "https://warthunder.com/en/text/wtcsleaderboard"
-  },
-  "25b5ec6c812e6555f912bea9bd037d1ec6591e12e4b1fa75e47480715f40f7f4": {
-    "title": "Register now!",
-    "url": "https://warthunder.com/en/enjoy"
-  },
-  "21dc3045c3a5e23e802e3b87367463a561fa217a0a7c854a904242d21d3a1b46": {
-    "title": "Join us More than 95,000,000 gamers",
-    "url": "https://warthunder.com/en/play"
+  "version": 2,
+  "updated_at": "2026-11-23T20:55:00.030376+00:00",
+  "items": {
+    "8afc1c41c0f6cf671f6683229871684f8609e7a5b3d349c0b3afd70f39357193": {
+      "id": "8afc1c41c0f6cf671f6683229871684f8609e7a5b3d349c0b3afd70f39357193",
+      "url": "https://warthunder.dmm.com/news/detail/16070",
+      "title": "ポーランド独立記念日：ラノフスキのP-47M-1-RE＆デカールトロフィー",
+      "date": "2026-11-12",
+      "fingerprint": "421ad410fe9698acf54415533350cd98f83cb422066ca10760a6a8a9493f083e",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "923279e179cf4fcbf90ce4ee874616eec8b3d976e468f4a6c346672255b56f9b": {
+      "id": "923279e179cf4fcbf90ce4ee874616eec8b3d976e468f4a6c346672255b56f9b",
+      "url": "https://warthunder.dmm.com/news/detail/16072",
+      "title": "休戦記念日：戦没者を偲んで",
+      "date": "2026-11-12",
+      "fingerprint": "44a02e99393fd7bc18885acd6eafd82fda85be0ed84650faf813603d9015570a",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "ef8d04f51e27868ffc857aa2632bfa47bb09f4dac96a1e70dbb72d13dc2f35a3": {
+      "id": "ef8d04f51e27868ffc857aa2632bfa47bb09f4dac96a1e70dbb72d13dc2f35a3",
+      "url": "https://warthunder.dmm.com/news/detail/16073",
+      "title": "ドイツ連邦軍の日：Pz.Sfl.Ic・IV号戦車/70（A）＆デカールトロフィー",
+      "date": "2026-11-13",
+      "fingerprint": "d0234d7e864fdac5c688e367e1577c77d585b7e0d7f3bff07ccb63fd6030413f",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "b10469d61ae1cd68e00c999ccd93565cee3596686361f8de18949fd484ec57ac": {
+      "id": "b10469d61ae1cd68e00c999ccd93565cee3596686361f8de18949fd484ec57ac",
+      "url": "https://warthunder.dmm.com/news/detail/16076",
+      "title": "月間デカール（11月）",
+      "date": "2026-11-13",
+      "fingerprint": "7a87bf797ea40d9768e555289539b8b93ce6ce7e135536a2df2d546598819c63",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "e9d02664cb92486fe8047265c5183f77b41e6b052c39ec2287542dcc3a84fb29": {
+      "id": "e9d02664cb92486fe8047265c5183f77b41e6b052c39ec2287542dcc3a84fb29",
+      "url": "https://warthunder.dmm.com/news/detail/16074",
+      "title": "フェアプレイ：2026年11月",
+      "date": "2026年11月 20",
+      "fingerprint": "d26e8c11b282edab20d36b826d7d805ceb8aa6f9c53827fab3ad455ca9397c1e",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "6502b3ffa5c844567d75255b50f189bba4caa0a9fd5533d9864d2d3cbf15d6a9": {
+      "id": "6502b3ffa5c844567d75255b50f189bba4caa0a9fd5533d9864d2d3cbf15d6a9",
+      "url": "https://warthunder.dmm.com/news/detail/16075",
+      "title": "【結果発表】WTCSプロリーグ2026：グランドファイナル優勝チーム「AVReS」",
+      "date": "2026-11-13",
+      "fingerprint": "5a2a076c2f5a18a7bcf22baed47c0086289cb00469a8829c400a50c00e11b0e9",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "b03f630a70deefa59485c5ce2e4b80944ecbdcafd39abea9a5839b930d48e2a1": {
+      "id": "b03f630a70deefa59485c5ce2e4b80944ecbdcafd39abea9a5839b930d48e2a1",
+      "url": "https://warthunder.dmm.com/news/detail/16077",
+      "title": "アップデート 2.61.0.13",
+      "date": "2026-11-13",
+      "fingerprint": "5ab8ace61e501b5fd191222de02c6040d968999d0a4207388ca114842b923d74",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "46e42a7eb13ab11e613f301c85f9c614dda8ba659d2b11d8b89c9bdd5f28290a": {
+      "id": "46e42a7eb13ab11e613f301c85f9c614dda8ba659d2b11d8b89c9bdd5f28290a",
+      "url": "https://warthunder.dmm.com/news/detail/16078",
+      "title": "アップデート 2.61.0.17",
+      "date": "2026-11-14",
+      "fingerprint": "d61425c571ac73c8e672ac75cc291852cf60253216866223d0f9b6eab7501ef2",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "df631589a9c469b820810bd7f63b73c927795541274ff0b9e0ac871343ff187b": {
+      "id": "df631589a9c469b820810bd7f63b73c927795541274ff0b9e0ac871343ff187b",
+      "url": "https://warthunder.dmm.com/news/detail/16083",
+      "title": "海イベント「コースタルディフェンダー（Coastal Defender）」：PCE-842",
+      "date": "2026-11-17",
+      "fingerprint": "76fdd67b3d932d1b5c791ecc2aa0394c2999aba667641b3b51933961581ef9b1",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "37a121a5d7c63a39ad0765e29f3275129b9fd8c3cc996bd3c8f29d37f9dfd357": {
+      "id": "37a121a5d7c63a39ad0765e29f3275129b9fd8c3cc996bd3c8f29d37f9dfd357",
+      "url": "https://warthunder.dmm.com/news/detail/16084",
+      "title": "アップデート 2.61.0.20",
+      "date": "2026-11-17",
+      "fingerprint": "b29829007ea2d1a47f87baf52ad7e7cf322bcc48a5abdd1c8d0a20e7c73f1622",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "c84d7292e90869c8ef0e960a56d1ea6ab95c2bb9b0d35d2829d7b41e7e034413": {
+      "id": "c84d7292e90869c8ef0e960a56d1ea6ab95c2bb9b0d35d2829d7b41e7e034413",
+      "url": "https://warthunder.dmm.com/news/detail/16086",
+      "title": "【完了】11月17日（火）サーバーメンテナンスのお知らせ",
+      "date": "2026-11-17",
+      "fingerprint": "9e8def4ec9fa353946fdbc33a567aa40b153661e95b231395c8b191536bc6336",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "8faafe5242f09f2ac28027d217d647c8ea6d32e6d380c0cb009c95751f811f86": {
+      "id": "8faafe5242f09f2ac28027d217d647c8ea6d32e6d380c0cb009c95751f811f86",
+      "url": "https://warthunder.dmm.com/news/detail/16089",
+      "title": "アップデート 2.61.0.24",
+      "date": "2026-11-18",
+      "fingerprint": "d099ba01f3059d0f1dfc15836657f6b473c8a3d364da1dc296d6d69fad35e788",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "f2d5dbb3155252313271f154be521e7da11a84f133328d01ed57247c92c31352": {
+      "id": "f2d5dbb3155252313271f154be521e7da11a84f133328d01ed57247c92c31352",
+      "url": "https://warthunder.dmm.com/news/detail/16092",
+      "title": "プレゼント企画「イーグルズシャドウ（Eagle's Shadow）」",
+      "date": "2026-11-19",
+      "fingerprint": "4d8e69dc1f46ca9921be87e4c840686437cb6aa797e0d1ef9e56f1e86fba39f9",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "0f5e61202971b3ad78bd345a01ab08702d6f3012ab7425d9127c7f82c7690652": {
+      "id": "0f5e61202971b3ad78bd345a01ab08702d6f3012ab7425d9127c7f82c7690652",
+      "url": "https://warthunder.dmm.com/news/detail/16090",
+      "title": "海イベント：PCE-842",
+      "date": "2026-11-19",
+      "fingerprint": "8692752188b9f27027ac9d0d00a995f2a86298c0a9cc18d70f31262c77c358bf",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "15f3cdb2610f6b2c492de2ffedb73404b6d561f1debae4d78c803beb3e7e79b3": {
+      "id": "15f3cdb2610f6b2c492de2ffedb73404b6d561f1debae4d78c803beb3e7e79b3",
+      "url": "https://warthunder.dmm.com/news/detail/16091",
+      "title": "アップデート 2.61.0.26",
+      "date": "2026-11-19",
+      "fingerprint": "e1d0c6684c5186c85a38d41e3ba1f531fac14297c602c623c5ac929f92c7fbbe",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "f1451bc4f23c23ab256e0cf6fc7765a78f9923e676425d7314cd3cf479e63d61": {
+      "id": "f1451bc4f23c23ab256e0cf6fc7765a78f9923e676425d7314cd3cf479e63d61",
+      "url": "https://warthunder.dmm.com/news/detail/16095",
+      "title": "サーバーアップデート 19.11.2026",
+      "date": "2026-11-20",
+      "fingerprint": "5f4746201b0fd29a06f4b20fa4d9b1bccac18fdbac5d152efdd1acc1cd853d05",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "27521ecf232503e31c6bb8f968e989686cc1bbf30cb716c8fc3216e5f8d56303": {
+      "id": "27521ecf232503e31c6bb8f968e989686cc1bbf30cb716c8fc3216e5f8d56303",
+      "url": "https://warthunder.dmm.com/news/detail/16098",
+      "title": "F-5A-21国際戦闘機コンペティション勝利記念：NF-5A",
+      "date": "2026-11-21",
+      "fingerprint": "e30f77276cd023640c5b39b73828a21788d812515df74abb9c4961fdb3de8719",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "194d01c536322eb86ba07f85056aab27e85b64edbcc1f58463b4658e93955443": {
+      "id": "194d01c536322eb86ba07f85056aab27e85b64edbcc1f58463b4658e93955443",
+      "url": "https://warthunder.dmm.com/news/detail/16099",
+      "title": "アップデート 2.61.0.33",
+      "date": "2026-11-21",
+      "fingerprint": "8eb4c184b3c3f09b2149141f80605c940ec5642dd61295d99f63a46bace37b6c",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    }
   }
 }
