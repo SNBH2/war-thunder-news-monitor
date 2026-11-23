@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-23T21:01:55.406727+00:00",
+  "updated_at": "2026-11-23T21:10:08.687621+00:00",
   "items": {
     "8afc1c41c0f6cf671f6683229871684f8609e7a5b3d349c0b3afd70f39357193": {
       "id": "8afc1c41c0f6cf671f6683229871684f8609e7a5b3d349c0b3afd70f39357193",
@@ -163,6 +163,168 @@
       "fingerprint": "8eb4c184b3c3f09b2149141f80605c940ec5642dd61295d99f63a46bace37b6c",
       "site": "War Thunder 日本語公式 (DMM)",
       "language": "日本語"
+    },
+    "f18ade15330517cff29de9ae57fa0397000dbed01b893651a69d6eea70a84a43": {
+      "id": "f18ade15330517cff29de9ae57fa0397000dbed01b893651a69d6eea70a84a43",
+      "url": "https://warthunder.com/en/news/10320-development-h-39-the-ephemeral-giant-en",
+      "title": "[Development] H-39: The Ephemeral Giant - News - War Thunder",
+      "date": "10 November 2026",
+      "fingerprint": "3dee86232304ca1fc5483e3004ff137f674c4c0c84b87e683949764aac779465",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "182bbee3a81dfbec336cf357f0d69f10820a167d8b4fb1108839a2f5c37d4a2c": {
+      "id": "182bbee3a81dfbec336cf357f0d69f10820a167d8b4fb1108839a2f5c37d4a2c",
+      "url": "https://warthunder.com/en/news/10322-special-a-decal-marking-the-anniversary-of-the-founding-of-the-royal-norwegian-air-force-en",
+      "title": "[Special] A Decal Marking the Anniversary of the Founding of the Royal Norwegian Air Force! - News - War Thunder",
+      "date": "10 November 2026",
+      "fingerprint": "fdff9c91daa0d5ea4cba4ad1d7149dd8295d996321343aa287d5cc512bd0856d",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "79a8e604de088c7cec35066a0da5299937eb92122ada60ea07a9fcf6ffd9a315": {
+      "id": "79a8e604de088c7cec35066a0da5299937eb92122ada60ea07a9fcf6ffd9a315",
+      "url": "https://warthunder.com/en/news/10328-special-a-decal-trophy-for-chinese-air-force-day-en",
+      "title": "[Special] A Decal Trophy for Chinese Air Force Day! - News - War Thunder",
+      "date": "11 November 2026",
+      "fingerprint": "1d8f455974bcf62b716fbdc167856031f64c26198c6f6aee799e9b26548cde0b",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "03b6ce9a2eb729833d9eecced1573bc1c8a69e0d7d29b41808601ece78434285": {
+      "id": "03b6ce9a2eb729833d9eecced1573bc1c8a69e0d7d29b41808601ece78434285",
+      "url": "https://warthunder.com/en/news/10325-special-a-decal-trophy-and-lanovskis-p-47m-1-re-thunderbolt-for-polands-national-independence-day-en",
+      "title": "[Special] A Decal Trophy and Lanovski’s P-47M-1-RE Thunderbolt for Poland’s National Independence Day! - News - War Thunder",
+      "date": "11 November 2026",
+      "fingerprint": "607afb72fd419e0a1baeb249bde067db90700d3d787c2657bca9a2c81a4c4ee4",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "0e7ab4bc33c17a050a1e20f4253f29c2b18254be2bd04f4857d52a975e448891": {
+      "id": "0e7ab4bc33c17a050a1e20f4253f29c2b18254be2bd04f4857d52a975e448891",
+      "url": "https://warthunder.com/en/news/10327-development-eagles-shadow-new-rendering-part-2-en",
+      "title": "[Development] Eagle’s Shadow: New Rendering! Part 2 - News - War Thunder",
+      "date": "11 November 2026",
+      "fingerprint": "a20030e131642cf445e4444acb6fc27f0e47a05205586a5fe0461e197e0e3796",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "676a4dc66c2d558faf0bbfccb914ef671d781d0f58afd8604fc4f7bbcca08fe0": {
+      "id": "676a4dc66c2d558faf0bbfccb914ef671d781d0f58afd8604fc4f7bbcca08fe0",
+      "url": "https://warthunder.com/en/news/10329-shop-special-a-decal-trophy-and-discounts-for-bundeswehr-foundation-day-en",
+      "title": "[Shop] [Special] A Decal Trophy and Discounts for Bundeswehr Foundation Day! - News - War Thunder",
+      "date": "12 November 2026",
+      "fingerprint": "9b112c8a01da07a6114283d936d8636d107c1e5cf47d5a1b285250d39c6ec286",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "f4940a12e91c46e816ad248589a02812f845970a1ab7c42e1fa5cb48e0fe746d": {
+      "id": "f4940a12e91c46e816ad248589a02812f845970a1ab7c42e1fa5cb48e0fe746d",
+      "url": "https://warthunder.com/en/news/10330-decals-monthly-decals-for-november-en",
+      "title": "[Decals] Monthly Decals for November! - News - War Thunder",
+      "date": "12 November 2026",
+      "fingerprint": "1a769233e7b51410a4b8fefd413a27c26a0d01d934ded50ad357e2cdcd50e3dd",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "79100407d5ff92319d1e86317d3dc126921494406a9386b701853a6fe9225b3c": {
+      "id": "79100407d5ff92319d1e86317d3dc126921494406a9386b701853a6fe9225b3c",
+      "url": "https://warthunder.com/en/news/10332-development-nuclear-escalation-new-models-for-ai-vehicles-en",
+      "title": "[Development] Nuclear Escalation: New Models For AI Vehicles - News - War Thunder",
+      "date": "12 November 2026",
+      "fingerprint": "a1b16bdceeab1c32c1732d282ecfbb866d1382f963b6c30087c29491d3840c8a",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "eda2db623cfb6e6071271603baa93e3aee7af81cf171ff0490ea45737f7b07b8": {
+      "id": "eda2db623cfb6e6071271603baa93e3aee7af81cf171ff0490ea45737f7b07b8",
+      "url": "https://warthunder.com/en/news/10333-fair-play-fair-play-november-2026-en",
+      "title": "[Fair Play] Fair Play: November 2026 - News - War Thunder",
+      "date": "12 November 2026",
+      "fingerprint": "861a3da054dd9f887e1d890511729c8dc3c90c36d4e7f5a5f83381e1e13a8cb2",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "bb6da45169935afe3a27b894d08eaf42921fc3d3e833e6720f2e503fb78bab87": {
+      "id": "bb6da45169935afe3a27b894d08eaf42921fc3d3e833e6720f2e503fb78bab87",
+      "url": "https://warthunder.com/en/news/10331-esports-avres-crowned-2026-wtcs-champions-the-grand-finals-are-over-en",
+      "title": "[Esports] AVReS Crowned 2026 WTCS Champions: The Grand Finals Are Over! - News - War Thunder",
+      "date": "12 November 2026",
+      "fingerprint": "65f88e1d37982960c50d2c142de7039d63f5fb249fe322a91210d2f2b96f2ce8",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "06f7a48cea737cb1d204a373bb0541018dd36aab2925fe34619fad1f0d8b13da": {
+      "id": "06f7a48cea737cb1d204a373bb0541018dd36aab2925fe34619fad1f0d8b13da",
+      "url": "https://warthunder.com/en/news/10334-market-40-new-user-created-camouflages-in-the-eagles-shadow-trophy-en",
+      "title": "[Market] 40 New User-Created Camouflages in the Eagle’s Shadow Trophy! - News - War Thunder",
+      "date": "13 November 2026",
+      "fingerprint": "f9b73ac22a01646d30a5435eec4589c719272185e3de4b2343cdf9a52d49a2dc",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "f9133b19ed01387b0069a91823f6fdeb97e221f9bd67c5d879cd664e67ee2bbd": {
+      "id": "f9133b19ed01387b0069a91823f6fdeb97e221f9bd67c5d879cd664e67ee2bbd",
+      "url": "https://warthunder.com/en/news/10336-development-eagles-shadow-new-rendering-part-3-en",
+      "title": "[Development] Eagle’s Shadow: New Rendering! Part 3 - News - War Thunder",
+      "date": "17 November 2026",
+      "fingerprint": "329ae5dc9add3a9a3d5ce6fc33f0f10ae05f5bda178298ce94a72363646af81d",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "7e225f5253a86ba047cb72f50a351a85a9eadae059f5a62fa98eb55acb859471": {
+      "id": "7e225f5253a86ba047cb72f50a351a85a9eadae059f5a62fa98eb55acb859471",
+      "url": "https://warthunder.com/en/news/10338-development-pce-842-coastal-defender-en",
+      "title": "[Development] PCE-842: Coastal Defender - News - War Thunder",
+      "date": "18 November 2026",
+      "fingerprint": "a7f315419f9600f4d95118420d9f3c906c5e12fade4a58f8db2fd640aee79f36",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "09c5758eea2d9a315fa92df735c35c05cbf452a8ba1ff4033ff9e7362b7c9bb4": {
+      "id": "09c5758eea2d9a315fa92df735c35c05cbf452a8ba1ff4033ff9e7362b7c9bb4",
+      "url": "https://warthunder.com/en/news/10341-shop-the-nf-5a-returns-for-the-anniversary-of-the-f-5a-21s-victory-in-the-ifa-competition-en",
+      "title": "[Shop] The NF-5A Returns for the Anniversary of the F-5A-21’s Victory in the IFA Competition! - News - War Thunder",
+      "date": "20 November 2026",
+      "fingerprint": "1e2af5649b68450d4021bbef1385f5c1bfe87e2855efe237a4f8c0dfd79ef755",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "243300ce2b3e01dcf7ac57be74412b638e623c32287137f302650951e4d7f191": {
+      "id": "243300ce2b3e01dcf7ac57be74412b638e623c32287137f302650951e4d7f191",
+      "url": "https://warthunder.com/en/news/10342-steam-awards-labor-of-love-nomination-en",
+      "title": "The Steam Awards: Nominate War Thunder in the “Labor of Love” Category - News - War Thunder",
+      "date": "23 November 2026",
+      "fingerprint": "7ede97a2ba3f53ee4cf167bfec392d9dee163837508aaa6d3822a389e22086e9",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "c5ad4e81f191449c9b388269ff755f62e99e31560771adadaf3e9027816ef837": {
+      "id": "c5ad4e81f191449c9b388269ff755f62e99e31560771adadaf3e9027816ef837",
+      "url": "https://warthunder.com/en/news/10318-event-the-great-war-returns-with-new-obtainable-aircraft-to-mark-november-11th-en",
+      "title": "[Event] The Great War Returns With New Obtainable Aircraft to Mark November 11th! - News - War Thunder",
+      "date": "9 November 2026",
+      "fingerprint": "62b124e0a33dc1fcd18fa7ef34cd09b09e63bdf653fc805bdbb32a6e84f27466",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "ff2b02582239181d91040857d669cb2d7efc71320fb5f5a7c92519a071a419b7": {
+      "id": "ff2b02582239181d91040857d669cb2d7efc71320fb5f5a7c92519a071a419b7",
+      "url": "https://warthunder.com/en/news/10323-meet-the-eagles-shadow-major-update-en",
+      "title": "Meet the “Eagle's Shadow” Major Update! - News - War Thunder",
+      "date": "11 November 2026",
+      "fingerprint": "a896d359f302a5e9c646b28de90f1df68dfdb0a331b85231764aaf424c44e561",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
+    },
+    "c6e1b43c25cab2614d8184be9fc87fcc431d42b90b0b8b02eef470aeace8d90a": {
+      "id": "c6e1b43c25cab2614d8184be9fc87fcc431d42b90b0b8b02eef470aeace8d90a",
+      "url": "https://warthunder.com/en/news/10335-event-get-pce-842-in-the-coastal-defender-event-en",
+      "title": "[Event] Get PCE-842 in the Coastal Defender Event! - News - War Thunder",
+      "date": "16 November 2026",
+      "fingerprint": "cf210a11d931d0d86c10f40255825186421d100005b03067fe26046dcf39f832",
+      "site": "War Thunder English Official",
+      "language": "ENGLISH"
     }
   }
 }
