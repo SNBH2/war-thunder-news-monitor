@@ -185,6 +185,7 @@ def main() -> None:
                 print(f"WARNING: no article links detected on {site['name']}.")
             for item in items:
                 current_ids[item["id"]] = item
+                    print(f"  Candidate: {item['url']} | {item['title']}")
             print(f"{site['name']}: found {len(items)} candidate items.")
         except Exception as exc:
             errors.append(f"{site['name']}: {exc}")
