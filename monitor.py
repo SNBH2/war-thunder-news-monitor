@@ -514,10 +514,6 @@ def main() -> None:
                 continue
 
         # 変更なしの記事も最新状態として保持
-        for item in current_items:
-            if item["id"] not in new_state:
-                new_state[item["id"]] = item
-
         save_state(new_state)
 
     print("\n========== 実行結果 ==========")
