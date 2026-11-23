@@ -22,6 +22,8 @@ TIMEOUT = 25
 DELAY_SECONDS = 0.3
 STATE_VERSION = 2
 
+FALLBACK_TITLE = "新しい記事を検出しました"
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; WarThunderNewsMonitor/2.0)"
@@ -58,8 +60,18 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+def valid_title(value: str) -> str:
+    value = clean_text(value)
+
+    if 4 <= len(value) <= 250:
+        return value
+
+    return ""
+
+
 def canonical_url(url: str) -> str:
     parsed = urlparse(url)
+
     return (
         f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
     ).rstrip("/")
@@ -75,6 +87,7 @@ def get_page(url: str) -> BeautifulSoup:
     response = session.get(url, timeout=TIMEOUT)
     response.raise_for_status()
     response.encoding = response.apparent_encoding or "utf-8"
+
     return BeautifulSoup(response.text, "html.parser")
 
 
@@ -91,13 +104,18 @@ def is_article_url(url: str, site: dict) -> bool:
 
 
 def extract_title(anchor) -> str:
-    # まずリンク自身の文字を確認
-    title = clean_text(anchor.get_text(" ", strip=True))
+    # 1. リンク自身の文字
+    title = valid_title(
+        anchor.get_text(" ", strip=True)
+    )
 
-    # リンクの周辺にある見出しを優先
+    if title:
+        return title
+
+    # 2. 周囲の見出し
     parent = anchor
 
-    for _ in range(5):
+    for _ in range(6):
         if parent.parent is None:
             break
 
@@ -108,15 +126,67 @@ def extract_title(anchor) -> str:
         )
 
         if heading:
-            heading_text = clean_text(
+            heading_text = valid_title(
                 heading.get_text(" ", strip=True)
             )
 
-            if 4 <= len(heading_text) <= 250:
+            if heading_text:
                 return heading_text
 
-    if 4 <= len(title) <= 250:
-        return title
+    # タイトルが見つからなくても空文字で返す
+    return ""
+
+
+def extract_page_title(soup: BeautifulSoup) -> str:
+    # 1. 記事ページのh1
+    heading = soup.find("h1")
+
+    if heading:
+        title = valid_title(
+            heading.get_text(" ", strip=True)
+        )
+
+        if title:
+            return title
+
+    # 2. Open Graphタイトル
+    og_title = soup.find(
+        "meta",
+        property="og:title"
+    )
+
+    if og_title:
+        title = valid_title(
+            og_title.get("content", "")
+        )
+
+        if title:
+            return title
+
+    # 3. Twitterタイトル
+    twitter_title = soup.find(
+        "meta",
+        attrs={"name": "twitter:title"}
+    )
+
+    if twitter_title:
+        title = valid_title(
+            twitter_title.get("content", "")
+        )
+
+        if title:
+            return title
+
+    # 4. HTMLのtitleタグ
+    title_tag = soup.find("title")
+
+    if title_tag:
+        title = valid_title(
+            title_tag.get_text(" ", strip=True)
+        )
+
+        if title:
+            return title
 
     return ""
 
@@ -129,13 +199,15 @@ def extract_date(soup: BeautifulSoup) -> str:
             time_tag.get("datetime")
             or time_tag.get_text(" ", strip=True)
         )
+
         value = clean_text(value)
 
         if value:
             return value[:80]
 
-    # 日付らしい表記を探す
-    text = clean_text(soup.get_text(" ", strip=True))
+    text = clean_text(
+        soup.get_text(" ", strip=True)
+    )
 
     patterns = [
         r"20\d{2}[./年-]\s?\d{1,2}[./月-]\s?\d{1,2}日?",
@@ -166,14 +238,21 @@ def extract_listing(site: dict) -> list[dict]:
         if not is_article_url(href, site):
             continue
 
+        item_id = make_id(href)
+
+        # 同じURLは重複登録しない
+        if item_id in found:
+            continue
+
         title = extract_title(anchor)
 
         if not title:
-            print(f"WARNING: title not found: {href}")
-            continue
+            print(
+                f"WARNING: 一覧でタイトル取得失敗。"
+                f"記事ページで再取得します: {href}"
+            )
 
-        item_id = make_id(href)
-
+        # タイトルが空でも記事を登録する
         found[item_id] = {
             "id": item_id,
             "url": href,
@@ -194,7 +273,6 @@ def extract_listing(site: dict) -> list[dict]:
 
 
 def extract_article_content(soup: BeautifulSoup) -> str:
-    # 記事本文と思われる領域を優先
     selectors = [
         "article",
         ".news-content",
@@ -216,7 +294,6 @@ def extract_article_content(soup: BeautifulSoup) -> str:
             if len(text) >= 100:
                 return text[:50000]
 
-    # 本文領域が見つからない場合は説明文を使う
     description = soup.find(
         "meta",
         attrs={"name": "description"}
@@ -245,15 +322,20 @@ def extract_article_content(soup: BeautifulSoup) -> str:
 def get_article_fingerprint(item: dict) -> dict:
     soup = get_page(item["url"])
 
-    # 記事ページのタイトルを取得
-    heading = soup.find("h1")
+    # 記事ページから正式タイトルを再取得
+    page_title = extract_page_title(soup)
 
-    if heading:
-        page_title = clean_text(
-            heading.get_text(" ", strip=True)
+    if page_title:
+        item["title"] = page_title
+
+    # それでもタイトルがなければ通知用の共通タイトルを設定
+    if not valid_title(item.get("title", "")):
+        item["title"] = FALLBACK_TITLE
+
+        print(
+            f"WARNING: タイトルを取得できません。"
+            f"共通タイトルで通知します: {item['url']}"
         )
-        if page_title:
-            item["title"] = page_title
 
     # 日時を取得
     item["date"] = extract_date(soup)
@@ -297,7 +379,6 @@ def load_state() -> tuple[dict, bool]:
             f"state.jsonを読み込めません: {exc}"
         )
 
-    # 新形式か確認
     if (
         isinstance(data, dict)
         and data.get("version") == STATE_VERSION
@@ -305,7 +386,6 @@ def load_state() -> tuple[dict, bool]:
     ):
         return data["items"], False
 
-    # 旧形式なら初回扱いにして全記事を通知
     print(
         "旧形式のstate.jsonを検出。"
         "新方式の初回通知を実行します。"
@@ -356,6 +436,11 @@ def post_to_discord(item: dict, status: str) -> None:
         label = "記事更新"
         color = 0xF1C40F
 
+    title = valid_title(item.get("title", ""))
+
+    if not title:
+        title = FALLBACK_TITLE
+
     date_line = ""
 
     if item.get("date"):
@@ -366,7 +451,7 @@ def post_to_discord(item: dict, status: str) -> None:
         "allowed_mentions": {"parse": []},
         "embeds": [{
             "title": (
-                f"{flag} [{label}] {item['title']}"
+                f"{flag} [{label}] {title}"
             )[:256],
             "url": item["url"],
             "description": (
@@ -471,7 +556,8 @@ def main() -> None:
                 f"ERROR: {site['name']}: {exc}",
                 file=sys.stderr
             )
-            # このサイトの状態は変更しない
+
+            # 取得失敗したサイトの状態は変更しない
             continue
 
         for item in reversed(current_items):
@@ -510,10 +596,10 @@ def main() -> None:
                     f"通知失敗: {item['title']} : {exc}",
                     file=sys.stderr
                 )
+
                 # 失敗した記事は未通知のまま残す
                 continue
 
-        # 変更なしの記事も最新状態として保持
         save_state(new_state)
 
     print("\n========== 実行結果 ==========")
