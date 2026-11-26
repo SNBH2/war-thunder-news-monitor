@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-26T02:26:29.902561+00:00",
+  "updated_at": "2026-11-26T10:41:02.932389+00:00",
   "items": {
     "8afc1c41c0f6cf671f6683229871684f8609e7a5b3d349c0b3afd70f39357193": {
       "id": "8afc1c41c0f6cf671f6683229871684f8609e7a5b3d349c0b3afd70f39357193",
@@ -340,9 +340,27 @@
       "url": "https://warthunder.com/en/news/10343-event-pages-of-history-december-operation-little-saturn-en",
       "title": "[Event] Pages of History (December): Operation Little Saturn - News - War Thunder",
       "date": "25 November 2026",
-      "fingerprint": "0d04d10e5726c1069cc62a5aedbe04f72ec7c309adb9179dda7e03343c18063a",
+      "fingerprint": "c3213313aa837063875e3af96e826e7ca274e378ef66c13a323cb57ae9fd8e7d",
       "site": "War Thunder English Official",
       "language": "ENGLISH"
+    },
+    "62d02364215bfd0e32ddbfa76c04a18ca61cb99b0ad0f3d2675c66d3bc5e9422": {
+      "id": "62d02364215bfd0e32ddbfa76c04a18ca61cb99b0ad0f3d2675c66d3bc5e9422",
+      "url": "https://warthunder.dmm.com/news/detail/16104",
+      "title": "アップデート 2.61.0.42",
+      "date": "2026-11-26",
+      "fingerprint": "27867aced92da09b63fb39c71bf0dd330dc18a7dc5fd063a648d7571f0383b66",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
+    },
+    "0cd88bcc004ba71a566c106bc1e8b6758abe690fb53fa7567ab9bc8cf7a60862": {
+      "id": "0cd88bcc004ba71a566c106bc1e8b6758abe690fb53fa7567ab9bc8cf7a60862",
+      "url": "https://warthunder.dmm.com/news/detail/16103",
+      "title": "歴史の1ページ（12月）",
+      "date": "2026-11-26",
+      "fingerprint": "e6212c0ada002157d6582c71013c6da13a47c36986a2b8d1c8adf7aef92e2d32",
+      "site": "War Thunder 日本語公式 (DMM)",
+      "language": "日本語"
     }
   }
 }
