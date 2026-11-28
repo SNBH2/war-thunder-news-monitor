@@ -426,7 +426,7 @@ def post_to_discord(item: dict, status: str) -> None:
     flag = (
         "🇯🇵"
         if item["language"] == "日本語"
-        else "🇬🇧"
+        else "🇺🇸"
     )
 
     if status == "new":
